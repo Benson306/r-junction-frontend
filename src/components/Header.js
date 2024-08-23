@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -9,10 +10,15 @@ function Header() {
       </div>
       <div className='flex items-center gap-2 lg:gap-4 text-xs lg:text-sm'>
         <div>
-            <button className='text-white hover:text-zinc-400 font-montserrat'>Login</button>
+            <Link 
+            className='text-white hover:text-zinc-400 font-montserrat'
+            to={"/employer_login"}
+            >Candidate Login</Link>
         </div>
         <div>
-            <button className='bg-primary hover:bg-slate-900 p-2 rounded-lg text-white font-montserrat'>Employers / Post a job</button>
+            <Link 
+            className='bg-primary hover:bg-slate-900 p-2 rounded-lg text-white font-montserrat' 
+            to={"/employer_login"}>Employers / Post a job</Link>
         </div>
       </div>
     </div>
