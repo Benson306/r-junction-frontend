@@ -7,7 +7,8 @@ function EmployerLogin() {
     <div>
       <Header showMore={true} />
     <section className= 'mt-32 lg:mt-20 m-auto w-5/6 lg:w-1/3 bg-white border-slate-700 p-5 rounded-lg font-montserrat'>
-      <div className='text-center mb-5'>Employers' Login</div>
+    <div className='text-center mb-1 text-lg'>Employers' Login</div>
+      <div className='text-center mb-5 text-zinc-500 text-sm'>Welcome Back!</div>
       <form className='block'>
         <div>
           <input type="email" placeholder='Enter your email' className='border border-primary w-full rounded-lg p-3 mb-5 text-sm' />
@@ -22,7 +23,7 @@ function EmployerLogin() {
           <button className='bg-primary text-sm lg:text-base hover:bg-slate-800 text-white p-2 rounded-lg mb-1 lg:mb-0 w-full'>Log In</button>
         </div>
         <div className='mt-5 hover:text-primary text-sm'>
-            Don't have an account? <Link><span className='underline hover:text-sky-400'>Register now</span></Link>
+            Don't have an account? <Link to={"/employer_signup"}><span className='underline hover:text-sky-400'>Register now</span></Link>
         </div>
       </form>
     </section>

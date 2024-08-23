@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage";
 import Login from "./pages/EmployerLogin";
 import EmployerLogin from "./pages/EmployerLogin";
 import Header from "./components/Header";
+import EmployerSignUp from "./pages/EmployerSignUp";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/employer_login" element={<EmployerLogin />} />
+          <Route path="/employer_signup" element={<EmployerSignUp />} />
         </Routes>
     </div>
   );
