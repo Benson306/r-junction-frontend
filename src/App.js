@@ -5,6 +5,7 @@ import Login from "./pages/EmployerLogin";
 import EmployerLogin from "./pages/EmployerLogin";
 import Header from "./components/Header";
 import EmployerSignUp from "./pages/EmployerSignUp";
+import ForgotPassword from "./pages/ForgotPassword";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/employer_login" element={<EmployerLogin />} />
           <Route path="/employer_signup" element={<EmployerSignUp />} />
+          <Route path="/forgot_password" element={<ForgotPassword />} />
         </Routes>
     </div>
   );

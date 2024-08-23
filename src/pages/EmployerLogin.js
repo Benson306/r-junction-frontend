@@ -17,7 +17,7 @@ function EmployerLogin() {
           <input type="password" placeholder='Enter password' className='border border-primary w-full rounded-lg p-3 mb-3 text-sm' />
         </div>
         <div className='flex justify-end text-sm mb-2 text-primary hover:underline hover:text-sky-400'>
-          <Link>Forgot Password?</Link>
+          <Link to={"/forgot_password"}>Forgot Password?</Link>
         </div>
         <div>
           <button className='bg-primary text-sm lg:text-base hover:bg-slate-800 text-white p-2 rounded-lg mb-1 lg:mb-0 w-full'>Log In</button>
