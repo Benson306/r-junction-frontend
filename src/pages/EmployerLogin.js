@@ -6,7 +6,7 @@ function EmployerLogin() {
   return (
     <div>
       <Header showMore={true} />
-    <section className= 'mt-32 lg:mt-20 m-auto w-5/6 lg:w-1/3 bg-white border-slate-700 p-5 rounded-lg font-montserrat'>
+    <section className= 'mt-28 lg:mt-20 m-auto w-5/6 lg:w-1/3 bg-white border-slate-700 p-5 rounded-lg font-montserrat'>
     <div className='text-center mb-1 text-lg'>Employers' Login</div>
       <div className='text-center mb-5 text-zinc-500 text-sm'>Welcome Back!</div>
       <form className='block'>
