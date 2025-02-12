@@ -8,13 +8,15 @@ function Search() {
       <form className='block lg:flex items-center w-full'>
         <div className='flex mb-1 lg:mb-0 w-full lg:w-1/2 items-center'>
             <SearchIcon sx={{
-                fontSize: "30px"
+                fontSize: "30px",
+                color:"black"
             }}/>
             <input type='text' placeholder='Job title, keywords or company' className='p-2 w-full text-sm lg:text-base'/>
         </div>
         <div className='flex mb-1 lg:mb-0 w-full lg:w-1/3 items-center'>
             <LocationOnIcon sx={{
-                fontSize: "30px"
+                fontSize: "30px",
+                color:"black"
             }}/>
             <input type='text' placeholder='REMOTE' className='p-2 w-full text-sm lg:text-base'/>
         </div>

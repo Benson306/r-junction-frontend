@@ -12,19 +12,18 @@ function Footer() {
                 <div className='mb-2 text-base lg:text-lg mt-5 lg:mt-0 font-bold'>Contact Details</div>
                 <div className='flex text-sm lg:text-base gap-2 items-center mb-1'>
                     <LocalPhoneIcon sx={{ fontSize: '20px'}} />
-                    <button className='text-gray-400'>+254 7XX XXX XXX</button>
-                </div>
-                <div className='flex text-sm lg:text-base gap-2 items-center mb-1'>
-                    <LocalPhoneIcon sx={{ fontSize: '20px'}} />
-                    <button className='text-gray-400'>+254 7XX XXX XXX</button>
+                    <button className='text-gray-400'>+254 733 378 855</button>
                 </div>
                 <div className='flex text-sm lg:text-base gap-2 items-center mb-1'>
                     <MailIcon sx={{ fontSize: '20px' }} />
-                    <button className='text-gray-400'>info@rjunction.com</button>
+                    <button className='text-gray-400'>info@recruitmentjunction.co.ke</button>
                 </div>
             </div>
             <div>
                 <div className='mb-2 text-base lg:text-lg mt-5 lg:mt-0 font-bold'>Information</div>
+                <div className='flex text-sm lg:text-base gap-2 items-center mb-1'>
+                    <span className='text-gray-400'>About Us</span>
+                </div>
                 <div className='flex text-sm lg:text-base gap-2 items-center mb-1'>
                     <span className='text-gray-400'>Contact Us</span>
                 </div>
